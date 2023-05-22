@@ -1,16 +1,16 @@
-### Order Mysql Like Windows Explorer 
+# Order Mysql Like Windows Explorer 
 I think this source code i made is not perfect, but it's the simplest and the clostes with the case that one i want to solve :)
 So if you just order by name with asc order your order number will be [1, 10, 11, 12, .., 19, 2, 20] but with this code you can make them to be [1, 2, 3, ... ,9 , 10, 11] until the end
 But the limitation of this code is i just try that to the table that i make bellow, so if you have more crazy case i would love it if you can share the case wit me :D.
 
-### Code For Order
+## Code For Order
 ```
 SELECT * FROM employees
 ORDER BY CAST(SUBSTRING(name, 9) AS UNSIGNED), NAME asc;
 ```
 
-### Create Table
-# The source code bellow will random the order so you can ensure if the order is correct or not :)
+## Create Table
+### [NOTE] The source code bellow will random the order so you can ensure if the order is correct or not :)
 ```
 CREATE TABLE employees (
   id INT AUTO_INCREMENT PRIMARY KEY,
@@ -83,7 +83,7 @@ SELECT tmp.name FROM (
 ORDER BY RAND();
 ```
 
-### Reset Table
+## Reset Table
 In the name of experience you will make some mistake some day XD
 ```
 TRUNCATE TABLE employees;
