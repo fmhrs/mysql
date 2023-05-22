@@ -1,5 +1,4 @@
-# 🛑 [note] this is old version, 
-## have so many errors if you use it <br> you can check the new one in [here](https://github.com/fmhrs/mysql/blob/main/Ordering%20Like%20Windows%20Explorer%20Dose.md)
+# 🛑 [note] this is old version, you can found so many errors if you use it <br> you can check the new one in [here](https://github.com/fmhrs/mysql/blob/main/Ordering%20Like%20Windows%20Explorer%20Dose.md)
 
 ### CREATE FUNCTION  PATINDEX 
 -- https://stackoverflow.com/questions/38315658/patindex-replacement-in-mysql
