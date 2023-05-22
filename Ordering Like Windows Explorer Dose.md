@@ -1,9 +1,9 @@
 # Order Mysql Like Windows Explorer 
-I think this source code i made is not perfect, but it's the simplest and the clostes with the case that one i want to solve :) <br>
-So if you just order by name with asc order your order number will be [1, 10, 11, 12, .., 19, 2, 20] but with this code you can make them to be [1, 2, 3, ... ,9 , 10, 11] until the end <br>
-But the limitation of this code is i just try that to the table that i make bellow, so if you have more crazy case i would love it if you can share the case wit me :D. <br>
+I think this source code i made is not perfect, but it's the simplest and the clostes with the case that one i want to solve 🙂. 
+So if you just order by name with asc order your order number will be [1, 10, 11, 12, .., 19, 2, 20] 🤢,but with this code you can make them to be [1, 2, 3, ... ,9 , 10, 11] 🤩 until the end.
+But the limitation of this code is i just try that to the table that i make bellow, so if you have more crazy case i would love it if you can share the case wit me 😁.
 
-## Code For Order
+## Code For Order ⭐
 ```
 SELECT * FROM employees
 ORDER BY CAST(SUBSTRING(name, 9) AS UNSIGNED), NAME asc;
@@ -84,7 +84,7 @@ ORDER BY RAND();
 ```
 
 ## Reset Table
-In the name of experience you will make some mistake some day XD
+In the name of experience you will make some mistake some day 😅
 ```
 TRUNCATE TABLE employees;
 ```
